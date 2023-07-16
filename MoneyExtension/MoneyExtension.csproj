@@ -4,6 +4,26 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
 
+
+    <PackageId>MoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <licence>MIT</licence>
+    <Authors>Aleksei da Silva</Authors>
+    <Company>A.J.M.D.S - Soluções Tecnologicas</Company>
+    <PackageDescripption>Extension to Convert Decimal to Int</PackageDescripption>
+    <Description>Extension to Convert decimal to Int</Description>
+    <RepositoryUrl>https://github.com/Alekseidasilva/CursoDevOps</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Alekseidasilva/CursoDevOps</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>Money;Int;Decimal;Convert</PackageTags>    
+    <Title>Money Extension</Title>
+    <Summary>Extension to Convert Decimal to Int</Summary>
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  
 </Project>
